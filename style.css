@@ -4,7 +4,6 @@
 
 body {
     background-color: #330606;
-    /* background-color: #2e2e2e; */
 }
 
 /* ACMEFILMES TÍTULO */
@@ -18,18 +17,77 @@ body {
     font-weight: 400;
 }
 
-.container {
-    background-color: black;
-    opacity: 40%;
-    width: 400px;
-    height: 530px;
-    margin-left: 750px;
-}
 
-.info h1 {
+.fundo-escuro {
+    margin-left: 760px;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(26, 23, 23);
+}
+/* SEJA BEM VINDO */
+.fundo-escuro h1{
     color: white;
     font-size: 30px;
-    text-align: center;
-    margin-top: -30px;
+    margin-left: 83px;
+    margin-top: 80px;
 }
 
+
+/* CAIXA EMAIL */
+.caixa1 {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    margin-left: 830px;
+    margin-top: -430px;
+}
+/* CAIXA SENHA */
+.caixa2 {
+    margin-left: 830px;
+    height: 30px;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.botao-entrar {
+    width: 200px;
+    height: 40px;
+    background-color: #881717;
+    margin-top: 50px;
+    margin-left: 860px;
+    border: none;
+    cursor: pointer;
+    border-radius:30px;
+}
+/* ESQUECEU SUA SENHA? */
+.esqueceu {
+    background-color: rgb(26, 23, 23);
+    color: white;
+    margin-left: 900px;
+    margin-top: 0px;
+    font-family: "Jaldi", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* NOVO POR AQUI? */
+.novo p {
+    color: white;
+    font-family:  "Jaldi", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* ASSINE AQUI */
+.assine {
+    background-color: rgb(26, 23, 23);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 905px;
+    font-size: 20;
+    margin-left: 900px;
+    margin-top: -10px;
+}
