@@ -25,6 +25,7 @@ body {
     margin-top: -120px;
 }
 
+/* QUEM ESTA ASSISTINDO? */
 .perfis p {
     color: white;
     font-family: "Actor", sans-serif;
@@ -32,3 +33,63 @@ body {
     text-align: center;
     margin-top: 100px; 
 }
+
+/* IMAGENS DOS PERFIS */
+.img1 {
+    margin-left: 700px;
+}
+.img2 {
+    margin-left: 20px;
+}
+.img3 {
+    margin-left: 20px;
+}
+.img4 {
+    margin-left: 20px;
+}
+
+
+/* NOMES DOS PERFIS */
+.nome1 {
+    color: white;
+    font-family: "Actor", sans-serif;
+    font-size: 18px;
+    margin-left: 730px;
+    margin-top: 10px;
+}
+.nome2 {
+    color: white;
+    font-family: "Actor", sans-serif;
+    font-size: 18px;
+    margin-left: 885px;
+    margin-top: -17px;
+}
+.nome3 {
+    color: white;
+    font-family: "Actor", sans-serif;
+    font-size: 18px;
+    margin-left: 1030px;
+    margin-top: -17px;
+}
+.nome4 {
+    color: white;
+    font-family: "Actor", sans-serif;
+    font-size: 18px;
+    margin-left: 1160px;
+    margin-top: -20px;
+}
+
+
+/* BOTAO GERENCIAR PERFIL */
+.botao-entrar {
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius:30px;
+    background-color: #881717;
+    color: white;
+    margin-left: 850px;
+    margin-top: 100px;
+}
+
