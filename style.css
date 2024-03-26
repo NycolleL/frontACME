@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(./img/tela_entrar\ 1.png);
+    /* background-image: url(./img/tela_entrar\ 1.png); */
     background-repeat: no-repeat;
     background-color: #1C1C1C;
 }
@@ -20,43 +20,39 @@ body {
 }
 
 
-.fundo-escuro {
+/* .fundo-escuro {
     margin-left: 700px;
     width: 500px;
     height: 700px;
-    background-color: rgb(42, 12, 12);
-}
+    background-color: rgb(57, 12, 12);
+} */
+
 /* SEJA BEM VINDO */
-.fundo-escuro h1{
+ h1{
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
-
-/* CAIXA EMAIL */
-.caixa1 {
-    height: 35px;
-    display: flex;
-    margin-left: 830px;
-    margin-top: -430px;
-}
-/* CAIXA SENHA */
-.caixa2 {
-    margin-left: 830px;
-    height: 35px;
-    display: flex;
-    margin-top: 20px;
-}
-
+  input {
+    background-color:#333333;
+    color: white;
+    border:solid 5px #333333;
+    border-radius:50px;
+    width:400px;
+    height:32px;
+    margin-left: 750px;
+    margin-top: 3%;
+  }
 
 .botao-entrar {
     width: 200px;
     height: 40px;
     background-color: #881717;
+    color: white;
     margin-top: 50px;
-    margin-left: 860px;
+    margin-left: 850px;
     border: none;
     cursor: pointer;
     border-radius:30px;
@@ -65,9 +61,9 @@ body {
 .esqueceu {
     background-color: rgb(26, 23, 23);
     color: white;
-    margin-left: 900px;
-    margin-top: 0px;
+    margin-left: 875px;
     font-family: "Jaldi", sans-serif;
+    font-size: 16px;
     border: none;
     cursor: pointer;
 }
@@ -77,18 +73,18 @@ body {
 .novo p {
     color: white;
     font-family:  "Jaldi", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     margin-top: 20px;
 }
-/* ASSINE AQUI */
+/* ASSINE AGORA */
 .assine {
     background-color: rgb(26, 23, 23);
     color: white;
     border: none;
     cursor: pointer;
     margin-left: 905px;
-    font-size: 20;
-    margin-left: 900px;
-    margin-top: -10px;
+    font-size: 17px;
+    margin-left: 880px;
+    margin-top: -5px;
 }
