@@ -3,7 +3,9 @@
 }
 
 body {
-    background-color: #330606;
+    background-image: url(./img/tela_entrar\ 1.png);
+    background-repeat: no-repeat;
+    background-color: #1C1C1C;
 }
 
 /* ACMEFILMES TÍTULO */
@@ -12,31 +14,30 @@ body {
     opacity: 90%;
     text-align: center;
     margin-top: 120px;
-    font-size: 128px;
+    font-size: 135px;
     font-family: "Jomhuria", serif;
     font-weight: 400;
 }
 
 
 .fundo-escuro {
-    margin-left: 760px;
-    width: 400px;
-    height: 600px;
-    background-color: rgb(26, 23, 23);
+    margin-left: 700px;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(42, 12, 12);
 }
 /* SEJA BEM VINDO */
 .fundo-escuro h1{
     color: white;
-    font-size: 30px;
-    margin-left: 83px;
+    font-size: 35px;
+    text-align: center;
     margin-top: 80px;
 }
 
 
 /* CAIXA EMAIL */
 .caixa1 {
-    width: 300px;
-    height: 30px;
+    height: 35px;
     display: flex;
     margin-left: 830px;
     margin-top: -430px;
@@ -44,7 +45,7 @@ body {
 /* CAIXA SENHA */
 .caixa2 {
     margin-left: 830px;
-    height: 30px;
+    height: 35px;
     display: flex;
     margin-top: 20px;
 }
