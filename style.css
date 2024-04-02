@@ -1,90 +1,169 @@
-* {
+*{ 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
     overflow: hidden;
-}
-
+  }
+   
 body {
-    /* background-image: url(./img/tela_entrar\ 1.png); */
-    background-repeat: no-repeat;
     background-color: #1C1C1C;
 }
 
-/* ACMEFILMES TÍTULO */
-.titulo h1 {
-    color: white;
-    opacity: 90%;
-    text-align: center;
-    margin-top: 120px;
-    font-size: 135px;
-    font-family: "Jomhuria", serif;
-    font-weight: 400;
-}
-
-
-/* .fundo-escuro {
-    margin-left: 700px;
-    width: 500px;
-    height: 700px;
-    background-color: rgb(57, 12, 12);
-} */
-
-/* SEJA BEM VINDO */
- h1{
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-  input {
-    background-color:#333333;
-    color: white;
-    border:solid 5px #333333;
-    border-radius:50px;
-    width:400px;
-    height:32px;
-    margin-left: 750px;
-    margin-top: 3%;
+  /* remove a linha dos links */
+  a{
+    text-decoration: none;
   }
 
-.botao-entrar {
-    width: 200px;
-    height: 40px;
-    background-color: #881717;
+  /* ACMEFILMES */
+header h1 {
     color: white;
-    margin-top: 50px;
-    margin-left: 850px;
-    border: none;
-    cursor: pointer;
-    border-radius:30px;
-}
-/* ESQUECEU SUA SENHA? */
-.esqueceu {
-    background-color: rgb(26, 23, 23);
-    color: white;
-    margin-left: 875px;
-    font-family: "Jaldi", sans-serif;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-size: 128px;
+    margin-top: 5%;
 }
 
+  /* CAIXA CADASTRO */
+  .content{
+    width: 500px;
+    min-height: 560px; 
+    margin: 0px auto;
+    position: relative; 
+    margin-top: -20px;  
+  }
 
-/* NOVO POR AQUI? */
-.novo p {
-    color: white;
-    font-family:  "Jaldi", sans-serif;
-    font-size: 16px;
+  /* CADASTRO */
+  h1{
+    font-size: 48px;
+    color: #BE1313;
+    padding: 2px 0 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-}
-/* ASSINE AGORA */
-.assine {
-    background-color: rgb(26, 23, 23);
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-left: 905px;
-    font-size: 17px;
-    margin-left: 880px;
-    margin-top: -5px;
-}
+    padding-bottom: 30px;
+  }
+
+  h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(211, 75, 66, 0.8) 20%,rgb(180, 15, 15) 53%,rgba(148, 63, 63, 0.8) 79%,rgba(147,184,189,0) 100%); 
+  }
+
+  p{
+    margin-bottom:20px;
+  }
+
+  label{
+    color: #604040;
+    position: relative;
+  }
+
+  /* placeholder */
+::-webkit-input-placeholder  {
+    color: #bebcbc; 
+    font-style: italic;
+  }
+
+  /* CAIXA DE TEXTO */
+  input {
+    outline: none;
+  }
+   
+  /*estilo dos input,  menos o checkbox */
+  input:not([type="checkbox"]){
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+  }
+   
+  /*estilo do botão submit */
+  input[type="submit"]{
+    width: 100%;
+    cursor: pointer;  
+    background: rgb(179, 61, 61);
+    color: #fff;
+    font-size: 20px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+  }
+
+  /*estilo do botão submit no hover */
+  input[type="submit"]:hover{
+    background: #bd0c0c;
+  }
+  
+  /* JA TEM CONTA? */
+  .link{
+    position: absolute;
+    background: #696969;
+    color: #ffffff;
+    left: 0px;
+    height: 20px;
+    width: 440px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+    border-top: 1px solid #dbe5e8;
+  }
+   
+  /* IR PARA LOGIN */
+  .link a {
+    font-weight: bold;
+    background: #d85656;
+    padding: 6px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: 1px solid #a18d8d;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;  
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+  }
+  .link a:hover {
+    color: #ffffff;
+    background: #da2a2a;
+    border: 1px solid #df1c1c;
+  }
+  
+  #cadastro, 
+  #login{
+    position: absolute;
+    top: 30px;
+    width: 88%;   
+    padding: 18px 6% 60px 6%;
+    background: #f7f1f1;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+  }
+  
+  /* Efeito ao clicar no botão ( Ir para Login ) */
+  #paracadastro:target ~ .content #cadastro,
+  #paralogin:target ~ .content #login{
+     z-index: 2; 
+    -webkit-animation-name: fadeInLeft; 
+    animation-name: fadeInLeft;
+  }
+   
+  /* Efeito ao clicar no botão ( Cadastre-se ) */
+  #registro:target ~ .content #login,
+  #paralogin:target ~ .content #cadastro{
+    -webkit-animation-name: fadeOutLeft;
+    animation-name: fadeOutLeft;
+  }
+   
+  @keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+  }
