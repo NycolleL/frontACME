@@ -15,33 +15,75 @@
 <body>
   
   <header>
+    
+  </header>
+
+  <main>
     <div id="divBusca">
       <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
       <img src="./img/lupa.png" id="btnBusca" alt="Pesquisar"/>
+      
     </div>
-  </header>
- 
-<main>
-    <div>
-        <h1>ACME</h1>
-        <h2>FiLMES</h2>
 
-        <a href="#">
-          INÍCIO
-        </a>
-        <a href="#">
-          Meus Filmes
-        </a>
-        <a href="#">
-          Filmes
-        </a>
-        <a href="#">
-          Gêneros
-        </a>
-        <a href="#">
-          Carrinho
-        </a>
-    </div>
-  </main>
+    <div class="nov">NOViDADES</div>
+
+    <div class="barrinha">
+      <h1>ACME</h1>
+      <h2>FiLMES</h2>
+
+      <!-- <a href="#">
+        INÍCIO
+      </a>
+      <a href="#">
+        Meus Filmes
+      </a>
+      <a href="#">
+        Filmes
+      </a> -->
+
+      <ul id="nav">
+        <li><a href="#">INÍCIO</a></li>
+        <li><a href="#">Meus Filmes</a></li>
+        <li><a href="#">Filmes</a></li>
+        <li><a href="#">Gêneros</a>
+          <ul>
+            <li><a href="#">Ação</a></li>
+            <li><a href="#">Aventura</a></li>
+            <li><a href="#">Romance</a></li>
+            <li><a href="#">Drama</a></li>
+            <li><a href="#">Suspense</a></li>
+            <li><a href="#">Terror</a></li>
+            <li><a href="#">Animação</a></li>
+            <li><a href="#">Comédia</a></li>
+            <li><a href="#">Musical</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Carrinho</a></li>
+      </ul>
+
+      <!-- <a href="#">
+        <div class="gnr">
+          <select name='options'>
+            <option value='Ação'>Ação</option>
+            <option value='Animação'>Animação</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Comédia">Comédia</option>
+            <option value="Comédia romântica">Comédia romântica</option>
+            <option value="Drama">Drama</option>
+            <option value="Musical">Musical</option>
+            <option value="Romance">Romance</option>
+            <option value="Suspense">Suspense</option>
+            <option value="Terror / Horror">Terror / Horror</option>
+          </select> 
+        </div> 
+      </a>
+      <a href="#">
+        Carrinho
+      </a> -->
+  </div>
+
+ 
+</main>
+ 
 </body>
 </html>
