@@ -13,8 +13,18 @@ h1 {
     color: white;
     font-family: "Jomhuria", serif;
     font-weight: 400;
-    font-size: 95px;
+    font-size: 97px;
     margin-top: 20%;
+    margin-left: 14%;
+    letter-spacing: 2px;
+}
+h2 {
+  font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-size: 95px;
+    margin-top: -40px;
+    margin-left: 10%;
+    letter-spacing: 2px;
 }
 
 /* BARRA VERMELHA */
@@ -23,6 +33,7 @@ div {
     width: 250px;
     padding-left: 20px;
     height: 100vh;
+    margin-top: -122px;
     background-color: #C80C0C;
     border-top-right-radius: 90px;
   }
@@ -32,8 +43,9 @@ div {
     font-size: 25px;
     color: #fff;
     display: block;
-    padding: 20px;
-    padding-left: 30px;
+    padding: 25px;
+    font-family: "Inter", sans-serif;
+    padding-left: 10px;
     text-decoration: none;
   }
   div a:hover {
@@ -44,47 +56,32 @@ div {
     border-bottom-left-radius: 20px;
   }
 
-
-/* ACMEFILMES */
-/* h1 {
-    color: white;
-    font-family: "Jomhuria", serif;
-    font-weight: 400;
-    font-size: 100px;
-} */
-/* BARRA VERMELHA  */
-/* .title {
-    background-color: #C80C0C;
-    height: 100px;
-    width: 13%;
-} */
-
 /* CAIXA DE PESQUISAR */
-/* #divBusca{
+#divBusca{
     background-color:#a09e9e;
     border:solid 1px; 
     border-radius:20px;
     width:20%;
     height: 50px;
-    margin-left: 40%;
-    margin-top: 2%;
-} */
+    margin-left: 18%;
+    margin-top: 70px;
+} 
 /* TEXTO PESQUISAR */
-  /* #txtBusca{
+#txtBusca{
     float:left;
     background-color:transparent;
     padding-left:10px; 
-    font-style:italic;
+    font-family: "Inter", sans-serif;
     font-size:18px;
     margin-top: 15px;
     margin-left: 10px;
     border:none;
     width:300px;
-} */
+} 
 /* LUPA */
-/* #btnBusca {
+#btnBusca {
     width: 30px;
     height: 30px;
     margin-top: 7px;
     opacity: 60%;
-} */
+}
